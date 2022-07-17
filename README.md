@@ -14,9 +14,9 @@ npm install
 
 ## How to use
 
-There are 2 steps to make this project work in your local setup.
+There are 3 steps to make this project work in your local setup.
 
-### User credentials
+### Set user credentials
 
 Add your Online Soccer Manager username and password to a `.env` file.
 
@@ -42,10 +42,20 @@ This project only supports **1° division competitions**. This means that if you
 Example:
 
 ```js
-const league = "Spain" 
+const league = 'Spain'
 ```
 
-Response from the console:
+### Run the script
+
+You can run the script with the following command:
+
+```
+node index.js
+```
+
+After a few seconds, the response will be printed to the console.
+
+Response example:
 
 ```js
 [
